@@ -14,7 +14,7 @@ ShelfWise includes the following features:
 ## 3. User Interface
 ShelfWise includes the following pages:
 
-- **Home Page** – Overview of the web application, its features, and available functionalities, including book browsing, search, and user authentication.
+- **Home Page** – Provides an overview of the platform, with a Call-to-Action button leading to registration or login.
 - **Login/Register Page** – Allows users to create an account or log in to access personalized features like shopping cart and wishlist.
 - **All Books Page** – Browse the entire collection of books, search by keywords, and filter by genre, author, and price.
 - **Book Preview Page** – View detailed book information, including title, author, description, and price, with options to add to cart or wishlist.
@@ -27,19 +27,32 @@ ShelfWise includes the following pages:
 # 4. Functionality
 
 ## 4.1. Home Page #1
-The Home Page provides basic information about the web application, including help and an "About Us" section. Most importantly, it allows users to explore available books.
+The **Home Page** provides a brief overview of the web application, with an emphasis on guiding users toward registration or login.
 
 ### Components on the Home Page:
-- **Search bar** – Allows users to enter keywords and search for books.
-- **Filters and sorting** – Enables filtering by genre, author, and price.
-- **Login/Register button** – If the user is not logged in, they can sign in or create an account.
-- **Book selection** – When a user selects a book, they are redirected to the **Book Preview Page**.
+- **Call-to-Action button** – Directs users to the **Login/Register Page**.
+- **Basic demo of the platform** – A preview of how ShelfWise works, but without search or filtering functionalities.
 
 ![image](images/home-page-1.jpg)
 ![image](images/home-page-2.jpg)
 ![image](images/home-page-3.jpg)
 
-## 4.2. All Books Page #2
+## 4.2. Login/Register Page #2
+The **Login/Register Page** allows users to authenticate and gain access to personalized features.
+
+### Elements on the page:
+- **Login form** – Users enter their credentials to sign in.
+- **Register form** – Users create an account by providing their details.
+- **Forgot password option** – Allows users to reset their password if needed.
+
+![image](images/login-page.jpg)
+![image](images/register-page.jpg)
+
+### Navigation from this page:
+- **Back to Home Page**
+- **Navigate to All Books Page** after successful login.
+
+## 4.3. All Books Page #3
 The **All Books Page** enables users to browse the complete collection of books available on the platform.
 
 ### Elements on the page:
@@ -55,7 +68,7 @@ The **All Books Page** enables users to browse the complete collection of books 
 - **Back to Home Page**
 - **Navigate to Book Preview Page** when a book is selected.
 
-## 4.3. Book Preview Page #3
+## 4.4. Book Preview Page #4
 The **Book Preview Page** opens when a user clicks on a book. This page displays detailed information about the selected book.
 
 ### Elements on the page:
@@ -68,11 +81,11 @@ The **Book Preview Page** opens when a user clicks on a book. This page displays
 ![image](images/book-preview-page.jpg)
 
 ### Navigation from this page:
-- **Back to Home Page**
+- **Back to All Books Page**
 - **Navigate to Shopping Cart Page** if the user adds a book to their cart.
 - **Navigate to Wishlist Page** if the user saves a book.
 
-## 4.4. Shopping Cart Page #4
+## 4.5. Shopping Cart Page #5
 The **Shopping Cart Page** allows users to review and manage the books they have added to their cart.
 
 ### Elements on the page:
@@ -85,10 +98,10 @@ The **Shopping Cart Page** allows users to review and manage the books they have
 
 ### Navigation from this page:
 - **Back to Book Preview Page**
-- **Back to Home Page**
+- **Back to All Books Page**
 - **Navigate to Order Management Page**.
 
-## 4.5. Wishlist Page #5
+## 4.6. Wishlist Page #6
 The **Wishlist Page** allows users to save books for later purchase.
 
 ### Elements on the page:
@@ -99,10 +112,10 @@ The **Wishlist Page** allows users to save books for later purchase.
 ![image](images/wishlist.jpg)
 
 ### Navigation from this page:
-- **Back to Home Page**
+- **Back to All Books Page**
 - **Navigate to Shopping Cart Page**.
 
-## 4.6. Order Management Page #6
+## 4.7. Order Management Page #7
 The **Order Management Page** allows users to complete their purchases and track their orders.
 
 ### Elements on the page:
@@ -117,4 +130,4 @@ The **Order Management Page** allows users to complete their purchases and track
 
 ### Navigation from this page:
 - **Back to Shopping Cart Page**
-- **Back to Home Page**.
+- **Back to All Books Page**.
