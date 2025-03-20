@@ -220,10 +220,10 @@ ShelfWise is built using the following technologies:
 
 ## 7. Out of Scope
 
-- **Admin Panel** – Admins can manage book inventory, track orders, and oversee platform operations efficiently.
-- **Physical Store Integration** – The platform operates solely as an online bookstore and does not support in-store pickup or integration with physical stores.
-- **Multivendor Marketplace** – Only platform administrators can add books; third-party sellers cannot list their own books.
-- **Audiobooks & eBooks** – The bookstore focuses on physical books and does not support the purchase or download of digital or audio formats.
-- **Book Reviews & Ratings** – Users cannot leave reviews or rate books in this version of the platform.
+- **Admin Panel** – Admins can manage book inventory, track orders, and oversee platform operations efficiently. [#11](https://github.com/hanadigaribovic/shelfwise-issues/issues/11)
+- **Physical Store Integration** – The platform operates solely as an online bookstore and does not support in-store pickup or integration with physical stores. [#12](https://github.com/hanadigaribovic/shelfwise-issues/issues/12)
+- **Multivendor Marketplace** – Only platform administrators can add books; third-party sellers cannot list their own books. [#13](https://github.com/hanadigaribovic/shelfwise-issues/issues/13)
+- **Audiobooks & eBooks** – The bookstore focuses on physical books and does not support the purchase or download of digital or audio formats. [#14](https://github.com/hanadigaribovic/shelfwise-issues/issues/14)
+- **Book Reviews & Ratings** – Users cannot leave reviews or rate books in this version of the platform. [#15](https://github.com/hanadigaribovic/shelfwise-issues/issues/15)
 
 
