@@ -21,3 +21,5 @@ ShelfWise includes the following pages:
 - **Shopping Cart Page** – Review selected books, manage cart items, and proceed to checkout for purchase.
 - **Wishlist Page** – Save books for future purchase and move them to the shopping cart when ready.
 - **My Orders Page** – View detailed information about the user’s previous orders and their progress.
+
+![image](images/sitemap.png)
