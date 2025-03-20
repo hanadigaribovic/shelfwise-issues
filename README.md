@@ -135,21 +135,23 @@ The **Order Management Page** allows users to complete their purchases and track
 ## 5. API Documentation
 ### 5.1. API Endpoints
 
-| #   | Method  | Endpoint        | Request DTO  | Response DTO   | Description                                     | Section |
-|-----|---------|----------------|--------------|----------------|-------------------------------------------------|---------|
-| I.a | Create  | `/register`     | `UserDto`    | `UserDto`      | Creates a new user account.                     | 4.1     |
-| I.b | Create  | `/login`        | `LoginDto`   | `TokenDto`     | Authenticates user and returns a JWT token.     | 4.1     |
-| II.a| Read    | `/books`        | `-`          | `List<BookDto>`| Returns a list of all available books.          | 4.2     |
-| II.b| Read    | `/books/{id}`   | `-`          | `BookDto`      | Returns details of a specific book.             | 4.2     |
-| III.a | Create | `/cart`        | `CartDto`    | `CartDto`      | Adds a book to the shopping cart.               | 4.3     |
-| III.b | Read  | `/cart`         | `-`          | `List<CartDto>`| Returns the current contents of the cart.       | 4.3     |
-| III.c | Delete| `/cart/{id}`    | `-`          | `-`            | Removes a book from the shopping cart.          | 4.3     |
-| IV.a | Create | `/wishlist`     | `WishlistDto`| `WishlistDto`  | Adds a book to the wishlist.                    | 4.4     |
-| IV.b | Read   | `/wishlist`     | `-`          | `List<WishlistDto>` | Returns all books in the wishlist.        | 4.4     |
-| IV.c | Delete | `/wishlist/{id}`| `-`          | `-`            | Removes a book from the wishlist.               | 4.4     |
-| V.a  | Create | `/order`        | `OrderDto`   | `OrderDto`     | Creates a new order.                            | 4.5     |
-| V.b  | Read   | `/order/{id}`   | `-`          | `OrderDto`     | Returns details of a specific order.            | 4.5     |
-| V.c  | Read   | `/order`        | `-`          | `List<OrderDto>`| Returns all orders for a user.                  | 4.5     |
+| #  | Method  | Endpoint        | Request DTO      | Response DTO         | Description                                     |
+|----|---------|----------------|------------------|----------------------|-------------------------------------------------|
+| 1  | Create  | `/register`     | `UserDto`        | `UserDto`            | Creates a new user account.                     |
+| 2  | Create  | `/login`        | `LoginDto`       | `TokenDto`           | Authenticates user and returns a JWT token.     |
+| 3  | Read    | `/books`        | `-`              | `List<BookDto>`      | Returns a list of all available books.          |
+| 4  | Read    | `/books/{id}`   | `-`              | `BookDto`            | Returns details of a specific book.             |
+| 5  | Create  | `/cart`         | `CartDto`        | `CartDto`            | Adds a book to the shopping cart.               |
+| 6  | Read    | `/cart`         | `-`              | `List<CartDto>`      | Returns the current contents of the cart.       |
+| 7  | Delete  | `/cart/{id}`    | `-`              | `-`                  | Removes a book from the shopping cart.          |
+| 8  | Create  | `/wishlist`     | `WishlistDto`    | `WishlistDto`        | Adds a book to the wishlist.                    |
+| 9  | Read    | `/wishlist`     | `-`              | `List<WishlistDto>`  | Returns all books in the wishlist.              |
+| 10 | Delete  | `/wishlist/{id}`| `-`              | `-`                  | Removes a book from the wishlist.               |
+| 11 | Create  | `/order`        | `OrderDto`       | `OrderDto`           | Creates a new order.                            |
+| 12 | Create  | `/order/{orderId}/book`        | `OrderBookDto`       | `OrderBookDto`           | Adds a book to the order.|
+| 13 | Read    | `/order/{id}`   | `-`              | `OrderDto`           | Returns details of a specific order.            |
+| 14 | Read    | `/order`        | `-`              | `List<OrderDto>`     | Returns all orders for a user.                  |
+
 
 ### 5.2. Data Transfer Objects
 ```
@@ -166,6 +168,12 @@ LoginDto
 {
   email: string,
   password: string
+}
+```
+```
+TokenDto
+{
+  token: string
 }
 ```
 ```
@@ -186,6 +194,15 @@ CartDto
   userId: number,
   bookId: number,
   quantity: number
+}
+```
+```
+OrderBookDto
+{
+  orderId: number,
+  bookId: number,
+  quantity: number,
+  price: number
 }
 ```
 ```
