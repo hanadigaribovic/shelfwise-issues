@@ -26,7 +26,7 @@ ShelfWise includes the following pages:
 
 ## 4. Functionality
 
-### 4.1. Home Page
+### 4.1. Home Page [#1](https://github.com/hanadigaribovic/shelfwise-issues/issues/1)
 The **Home Page** provides a brief overview of the web application, with an emphasis on guiding users toward registration or login.
 
 #### Components on the Home Page:
@@ -37,7 +37,7 @@ The **Home Page** provides a brief overview of the web application, with an emph
 ![image](images/home-page-2.jpg)
 ![image](images/home-page-3.jpg)
 
-### 4.2. Login/Register Page
+### 4.2. Login/Register Page [#2](https://github.com/hanadigaribovic/shelfwise-issues/issues/2)
 The **Login/Register Page** allows users to authenticate and gain access to personalized features.
 
 #### Elements on the page:
@@ -51,7 +51,7 @@ The **Login/Register Page** allows users to authenticate and gain access to pers
 - **Back to Home Page**
 - **Navigate to All Books Page** after successful login.
 
-### 4.3. All Books Page
+### 4.3. All Books Page [#3](https://github.com/hanadigaribovic/shelfwise-issues/issues/3)
 The **All Books Page** enables users to browse the complete collection of books available on the platform.
 
 #### Elements on the page:
@@ -66,7 +66,7 @@ The **All Books Page** enables users to browse the complete collection of books 
 - **Back to Home Page**
 - **Navigate to Book Preview Page** when a book is selected.
 
-### 4.4. Book Preview Page
+### 4.4. Book Preview Page [#4](https://github.com/hanadigaribovic/shelfwise-issues/issues/4)
 The **Book Preview Page** opens when a user clicks on a book. This page displays detailed information about the selected book.
 
 #### Elements on the page:
@@ -83,7 +83,7 @@ The **Book Preview Page** opens when a user clicks on a book. This page displays
 - **Navigate to Shopping Cart Page** if the user adds a book to their cart.
 - **Navigate to Wishlist Page** if the user saves a book.
 
-### 4.5. Shopping Cart Page
+### 4.5. Shopping Cart Page [#5](https://github.com/hanadigaribovic/shelfwise-issues/issues/5)
 The **Shopping Cart Page** allows users to review and manage the books they have added to their cart.
 
 #### Elements on the page:
@@ -99,7 +99,7 @@ The **Shopping Cart Page** allows users to review and manage the books they have
 - **Back to All Books Page**
 - **Navigate to Order Management Page**.
 
-### 4.6. Wishlist Page
+### 4.6. Wishlist Page [#6](https://github.com/hanadigaribovic/shelfwise-issues/issues/6)
 The **Wishlist Page** allows users to save books for later purchase.
 
 #### Elements on the page:
@@ -113,7 +113,7 @@ The **Wishlist Page** allows users to save books for later purchase.
 - **Back to All Books Page**
 - **Navigate to Shopping Cart Page**.
 
-### 4.7. Order Management Page
+### 4.7. Order Management Page [#7](https://github.com/hanadigaribovic/shelfwise-issues/issues/7)
 The **Order Management Page** allows users to complete their purchases and track their orders.
 
 #### Elements on the page:
@@ -214,9 +214,9 @@ OrderDto
 ## 6. Technical Requirements
 ShelfWise is built using the following technologies:
 
-- **Frontend:** Angular  
-- **Backend:** Java, Spring, PostgreSQL  
-- **Hosting:** The frontend and backend are hosted on a **Netlify** cloud server.
+- **Frontend:** Angular  [#8](https://github.com/hanadigaribovic/shelfwise-issues/issues/8)
+- **Backend:** Java, Spring, PostgreSQL  [#9](https://github.com/hanadigaribovic/shelfwise-issues/issues/9)
+- **Hosting:** The frontend and backend are hosted on a **Netlify** cloud server.  [#10](https://github.com/hanadigaribovic/shelfwise-issues/issues/10)
 
 ## 7. Out of Scope
 
