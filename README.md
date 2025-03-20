@@ -148,9 +148,8 @@ The **Order Management Page** allows users to complete their purchases and track
 | 9  | Read    | `/wishlist`     | `-`              | `List<WishlistDto>`  | Returns all books in the wishlist.              |
 | 10 | Delete  | `/wishlist/{id}`| `-`              | `-`                  | Removes a book from the wishlist.               |
 | 11 | Create  | `/order`        | `OrderDto`       | `OrderDto`           | Creates a new order.                            |
-| 12 | Create  | `/order/{orderId}/book`        | `OrderBookDto`       | `OrderBookDto`           | Adds a book to the order.|
-| 13 | Read    | `/order/{id}`   | `-`              | `OrderDto`           | Returns details of a specific order.            |
-| 14 | Read    | `/order`        | `-`              | `List<OrderDto>`     | Returns all orders for a user.                  |
+| 12 | Read    | `/order/{id}`   | `-`              | `OrderDto`           | Returns details of a specific order.            |
+| 13 | Read    | `/order`        | `-`              | `List<OrderDto>`     | Returns all orders for a user.                  |
 
 
 ### 5.2. Data Transfer Objects
@@ -194,15 +193,6 @@ CartDto
   userId: number,
   bookId: number,
   quantity: number
-}
-```
-```
-OrderBookDto
-{
-  orderId: number,
-  bookId: number,
-  quantity: number,
-  price: number
 }
 ```
 ```
