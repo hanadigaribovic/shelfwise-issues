@@ -131,3 +131,94 @@ The **Order Management Page** allows users to complete their purchases and track
 #### Navigation from this page:
 - **Back to Shopping Cart Page**
 - **Back to All Books Page**.
+
+## 5. API Documentation
+### 5.1. API Endpoints
+
+| #   | Method  | Endpoint        | Request DTO  | Response DTO   | Description                                     | Section |
+|-----|---------|----------------|--------------|----------------|-------------------------------------------------|---------|
+| I.a | Create  | `/register`     | `UserDto`    | `UserDto`      | Creates a new user account.                     | 4.1     |
+| I.b | Create  | `/login`        | `LoginDto`   | `TokenDto`     | Authenticates user and returns a JWT token.     | 4.1     |
+| II.a| Read    | `/books`        | `-`          | `List<BookDto>`| Returns a list of all available books.          | 4.2     |
+| II.b| Read    | `/books/{id}`   | `-`          | `BookDto`      | Returns details of a specific book.             | 4.2     |
+| III.a | Create | `/cart`        | `CartDto`    | `CartDto`      | Adds a book to the shopping cart.               | 4.3     |
+| III.b | Read  | `/cart`         | `-`          | `List<CartDto>`| Returns the current contents of the cart.       | 4.3     |
+| III.c | Delete| `/cart/{id}`    | `-`          | `-`            | Removes a book from the shopping cart.          | 4.3     |
+| IV.a | Create | `/wishlist`     | `WishlistDto`| `WishlistDto`  | Adds a book to the wishlist.                    | 4.4     |
+| IV.b | Read   | `/wishlist`     | `-`          | `List<WishlistDto>` | Returns all books in the wishlist.        | 4.4     |
+| IV.c | Delete | `/wishlist/{id}`| `-`          | `-`            | Removes a book from the wishlist.               | 4.4     |
+| V.a  | Create | `/order`        | `OrderDto`   | `OrderDto`     | Creates a new order.                            | 4.5     |
+| V.b  | Read   | `/order/{id}`   | `-`          | `OrderDto`     | Returns details of a specific order.            | 4.5     |
+| V.c  | Read   | `/order`        | `-`          | `List<OrderDto>`| Returns all orders for a user.                  | 4.5     |
+
+### 5.2. Data Transfer Objects
+```
+UserDto
+{
+  id: number,
+  name: string,
+  email: string,
+  password: string
+}
+```
+```
+LoginDto
+{
+  email: string,
+  password: string
+}
+```
+```
+BookDto
+{
+  id: number,
+  title: string,
+  author: string,
+  genre: string,
+  price: number,
+  description: string
+}
+```
+```
+CartDto
+{
+  id: number,
+  userId: number,
+  bookId: number,
+  quantity: number
+}
+```
+```
+WishlistDto
+{
+  id: number,
+  userId: number,
+  bookId: number
+}
+```
+```
+OrderDto
+{
+  id: number,
+  userId: number,
+  totalPrice: number,
+  status: string, 
+  orderDate: string
+}
+```
+## 6. Technical Requirements
+ShelfWise is built using the following technologies:
+
+- **Frontend:** Angular  
+- **Backend:** Java, Spring, PostgreSQL  
+- **Hosting:** The frontend and backend are hosted on a **Netlify** cloud server.
+
+## 7. Out of Scope
+
+- **Admin Panel** – Admins can manage book inventory, track orders, and oversee platform operations efficiently.
+- **Physical Store Integration** – The platform operates solely as an online bookstore and does not support in-store pickup or integration with physical stores.
+- **Multivendor Marketplace** – Only platform administrators can add books; third-party sellers cannot list their own books.
+- **Audiobooks & eBooks** – The bookstore focuses on physical books and does not support the purchase or download of digital or audio formats.
+- **Book Reviews & Ratings** – Users cannot leave reviews or rate books in this version of the platform.
+
+
