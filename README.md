@@ -43,7 +43,6 @@ The **Login/Register Page** allows users to authenticate and gain access to pers
 #### Elements on the page:
 - **Login form** – Users enter their credentials to sign in.
 - **Register form** – Users create an account by providing their details.
-- **Forgot password option** – Allows users to reset their password if needed.
 
 ![image](images/login-page.jpg)
 ![image](images/register-page.jpg)
@@ -59,7 +58,6 @@ The **All Books Page** enables users to browse the complete collection of books 
 - **Search bar** – Allows users to search for books by title, author, or keywords.
 - **Filters and sorting options** – Users can filter books by genre, author, and price.
 - **Book list/grid** – Displays all books with a preview of the title, author, and price.
-- **Pagination** – If there are many books, the list is divided into pages for easier navigation.
 - **Click on a book** – Redirects users to the **Book Preview Page** for more details.
 
 ![image](images/all-books-page.jpg)
