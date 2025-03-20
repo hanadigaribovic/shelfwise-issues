@@ -23,3 +23,98 @@ ShelfWise includes the following pages:
 - **My Orders Page** – View detailed information about the user’s previous orders and their progress.
 
 ![image](images/sitemap.png)
+
+# 4. Functionality
+
+## 4.1. Home Page #1
+The Home Page provides basic information about the web application, including help and an "About Us" section. Most importantly, it allows users to explore available books.
+
+### Components on the Home Page:
+- **Search bar** – Allows users to enter keywords and search for books.
+- **Filters and sorting** – Enables filtering by genre, author, and price.
+- **Login/Register button** – If the user is not logged in, they can sign in or create an account.
+- **Book selection** – When a user selects a book, they are redirected to the **Book Preview Page**.
+
+![image](images/home-page-1.jpg)
+![image](images/home-page-2.jpg)
+![image](images/home-page-3.jpg)
+
+## 4.2. All Books Page #2
+The **All Books Page** enables users to browse the complete collection of books available on the platform.
+
+### Elements on the page:
+- **Search bar** – Allows users to search for books by title, author, or keywords.
+- **Filters and sorting options** – Users can filter books by genre, author, and price.
+- **Book list/grid** – Displays all books with a preview of the title, author, and price.
+- **Pagination** – If there are many books, the list is divided into pages for easier navigation.
+- **Click on a book** – Redirects users to the **Book Preview Page** for more details.
+
+![image](images/all-books-page.jpg)
+
+### Navigation from this page:
+- **Back to Home Page**
+- **Navigate to Book Preview Page** when a book is selected.
+
+## 4.3. Book Preview Page #3
+The **Book Preview Page** opens when a user clicks on a book. This page displays detailed information about the selected book.
+
+### Elements on the page:
+- **Book title and author**
+- **Book description**
+- **Book price** (if available for purchase)
+- **"Add to Cart" button** – Allows the user to add the book to their shopping cart.
+- **"Add to Wishlist" button** – Enables the user to save the book for later.
+
+![image](images/book-preview-page.jpg)
+
+### Navigation from this page:
+- **Back to Home Page**
+- **Navigate to Shopping Cart Page** if the user adds a book to their cart.
+- **Navigate to Wishlist Page** if the user saves a book.
+
+## 4.4. Shopping Cart Page #4
+The **Shopping Cart Page** allows users to review and manage the books they have added to their cart.
+
+### Elements on the page:
+- **List of books in the cart**, displaying title, author, and price.
+- **Remove button** – Allows users to remove a book from the cart.
+- **Total order amount** – Displays the total price of books in the cart.
+- **"Proceed to Checkout" button** – Redirects the user to the **Order Management Page**.
+
+![image](images/shopping-cart-page.jpg)
+
+### Navigation from this page:
+- **Back to Book Preview Page**
+- **Back to Home Page**
+- **Navigate to Order Management Page**.
+
+## 4.5. Wishlist Page #5
+The **Wishlist Page** allows users to save books for later purchase.
+
+### Elements on the page:
+- **List of saved books**, displaying title and author.
+- **"Move to Cart" button** – Moves a book from the Wishlist to the Shopping Cart.
+- **Remove button** – Allows users to remove a book from the Wishlist.
+
+![image](images/wishlist.jpg)
+
+### Navigation from this page:
+- **Back to Home Page**
+- **Navigate to Shopping Cart Page**.
+
+## 4.6. Order Management Page #6
+The **Order Management Page** allows users to complete their purchases and track their orders.
+
+### Elements on the page:
+- **Customer details form** – Fields for name, surname, address, and payment method.
+- **Order summary** – Displays total price and list of books.
+- **"Confirm Order" button** – Completes the purchase.
+- **Order history list** – Shows the status of previous orders (e.g., "Shipped", "Delivered").
+
+![image](images/order-page-1.jpg)
+![image](images/order-page-2.jpg) 
+![image](images/my-orders-page.jpg)
+
+### Navigation from this page:
+- **Back to Shopping Cart Page**
+- **Back to Home Page**.
