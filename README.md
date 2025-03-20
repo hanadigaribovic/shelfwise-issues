@@ -24,12 +24,12 @@ ShelfWise includes the following pages:
 
 ![image](images/sitemap.png)
 
-# 4. Functionality
+## 4. Functionality
 
-## 4.1. Home Page #1
+### 4.1. Home Page
 The **Home Page** provides a brief overview of the web application, with an emphasis on guiding users toward registration or login.
 
-### Components on the Home Page:
+#### Components on the Home Page:
 - **Call-to-Action button** – Directs users to the **Login/Register Page**.
 - **Basic demo of the platform** – A preview of how ShelfWise works, but without search or filtering functionalities.
 
@@ -37,10 +37,10 @@ The **Home Page** provides a brief overview of the web application, with an emph
 ![image](images/home-page-2.jpg)
 ![image](images/home-page-3.jpg)
 
-## 4.2. Login/Register Page #2
+### 4.2. Login/Register Page
 The **Login/Register Page** allows users to authenticate and gain access to personalized features.
 
-### Elements on the page:
+#### Elements on the page:
 - **Login form** – Users enter their credentials to sign in.
 - **Register form** – Users create an account by providing their details.
 - **Forgot password option** – Allows users to reset their password if needed.
@@ -48,14 +48,14 @@ The **Login/Register Page** allows users to authenticate and gain access to pers
 ![image](images/login-page.jpg)
 ![image](images/register-page.jpg)
 
-### Navigation from this page:
+#### Navigation from this page:
 - **Back to Home Page**
 - **Navigate to All Books Page** after successful login.
 
-## 4.3. All Books Page #3
+### 4.3. All Books Page
 The **All Books Page** enables users to browse the complete collection of books available on the platform.
 
-### Elements on the page:
+#### Elements on the page:
 - **Search bar** – Allows users to search for books by title, author, or keywords.
 - **Filters and sorting options** – Users can filter books by genre, author, and price.
 - **Book list/grid** – Displays all books with a preview of the title, author, and price.
@@ -64,14 +64,14 @@ The **All Books Page** enables users to browse the complete collection of books 
 
 ![image](images/all-books-page.jpg)
 
-### Navigation from this page:
+#### Navigation from this page:
 - **Back to Home Page**
 - **Navigate to Book Preview Page** when a book is selected.
 
-## 4.4. Book Preview Page #4
+### 4.4. Book Preview Page
 The **Book Preview Page** opens when a user clicks on a book. This page displays detailed information about the selected book.
 
-### Elements on the page:
+#### Elements on the page:
 - **Book title and author**
 - **Book description**
 - **Book price** (if available for purchase)
@@ -80,15 +80,15 @@ The **Book Preview Page** opens when a user clicks on a book. This page displays
 
 ![image](images/book-preview-page.jpg)
 
-### Navigation from this page:
+#### Navigation from this page:
 - **Back to All Books Page**
 - **Navigate to Shopping Cart Page** if the user adds a book to their cart.
 - **Navigate to Wishlist Page** if the user saves a book.
 
-## 4.5. Shopping Cart Page #5
+### 4.5. Shopping Cart Page
 The **Shopping Cart Page** allows users to review and manage the books they have added to their cart.
 
-### Elements on the page:
+#### Elements on the page:
 - **List of books in the cart**, displaying title, author, and price.
 - **Remove button** – Allows users to remove a book from the cart.
 - **Total order amount** – Displays the total price of books in the cart.
@@ -96,29 +96,29 @@ The **Shopping Cart Page** allows users to review and manage the books they have
 
 ![image](images/shopping-cart-page.jpg)
 
-### Navigation from this page:
+#### Navigation from this page:
 - **Back to Book Preview Page**
 - **Back to All Books Page**
 - **Navigate to Order Management Page**.
 
-## 4.6. Wishlist Page #6
+### 4.6. Wishlist Page
 The **Wishlist Page** allows users to save books for later purchase.
 
-### Elements on the page:
+#### Elements on the page:
 - **List of saved books**, displaying title and author.
 - **"Move to Cart" button** – Moves a book from the Wishlist to the Shopping Cart.
 - **Remove button** – Allows users to remove a book from the Wishlist.
 
 ![image](images/wishlist.jpg)
 
-### Navigation from this page:
+#### Navigation from this page:
 - **Back to All Books Page**
 - **Navigate to Shopping Cart Page**.
 
-## 4.7. Order Management Page #7
+### 4.7. Order Management Page
 The **Order Management Page** allows users to complete their purchases and track their orders.
 
-### Elements on the page:
+#### Elements on the page:
 - **Customer details form** – Fields for name, surname, address, and payment method.
 - **Order summary** – Displays total price and list of books.
 - **"Confirm Order" button** – Completes the purchase.
@@ -128,6 +128,6 @@ The **Order Management Page** allows users to complete their purchases and track
 ![image](images/order-page-2.jpg) 
 ![image](images/my-orders-page.jpg)
 
-### Navigation from this page:
+#### Navigation from this page:
 - **Back to Shopping Cart Page**
 - **Back to All Books Page**.
